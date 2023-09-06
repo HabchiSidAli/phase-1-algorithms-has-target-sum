@@ -10,6 +10,7 @@ function hasTargetSum(array, target) {
 
 /* 
   Write the Big O time complexity of your function here
+  The time complexity is: O(n*n)
 */
 
 /* 
@@ -21,6 +22,7 @@ function hasTargetSum(array, target) {
 
 /*
   Add written explanation of your solution here
+  Two loops that iterate through the array, each time adding the numbers at both indexs and comparing to the target as long as the indexs are not equal.
 */
 
 // You can run `node index.js` to view these console logs
